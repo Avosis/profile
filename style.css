@@ -1,18 +1,69 @@
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 50%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 85%;
+
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 90%;
+
+  }
+}
+
+.justify {
+  text-align: justify;
+}
+
+.home-btn {
+    background-color: #4795FF;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+.social-links {
+    font-size: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+.make-blue {
+  color: #4795FF;
+}
+
+a {
+  text-decoration: none;
+  color:#4795FF;
+}
 
 body {
   background: #005aa7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #005aa7, #fffde4); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #005aa7, #fffde4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #141E30;  /* fallback for old browsers */
+  background-image: url(https://picsum.photos/g/3000/2000?random);
   font-family: 'Lato', sans-serif;
+  font-weight: 400; /* if you want the light version */
 
 }
 
 .card {
-  background-color: white;
+  background: rgba(255, 255, 255, .9);
   border-radius: 4px;
   padding: 40px;
-  margin:40px;
+/*  margin:40px;*/
   align: center;
+  border: 1px solid lightgrey;
+/*  max-width: 800px;*/
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
 #avatar {
@@ -21,16 +72,44 @@ body {
 
 }
 
-h2{
+h2 h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100; /* if you want the light version */
+
+}
+
+p {
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.container {
+  margin: 0 auto;
 
 
+}
+
+ul {
+  text-decoration: none;
+  list-style-type:none;
+}
+
+li {
+   display: inline-block;
+   margin: 10px;
 }
 
 #movie_cover {
   width: 100px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
-  font-family:
+
+.text-center {
+  text-align: center;
 }
 
+td {
+  padding: 10px;
+}
