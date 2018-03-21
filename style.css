@@ -1,0 +1,36 @@
+
+body {
+  background: #005aa7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #005aa7, #fffde4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #005aa7, #fffde4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Lato', sans-serif;
+
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  padding: 40px;
+  margin:40px;
+  align: center;
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 200px;
+
+}
+
+h2{
+
+
+}
+
+#movie_cover {
+  width: 100px;
+}
+
+h2 {
+  font-family:
+}
+
